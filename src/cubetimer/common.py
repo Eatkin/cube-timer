@@ -47,6 +47,7 @@ def _load_puzzles() -> list[Puzzle]:
         Puzzle("3x3", "3x3x3", s3.get_WCA_scramble),
         Puzzle("4x4", "4x4x4", s4.get_WCA_scramble),
         Puzzle("3x3-feet", "3x3x3 (Feet)", s3.get_WCA_scramble),
+        Puzzle("3x3-yellow-face", "3x3x3 (Yellow Face First)", s3.get_WCA_scramble),
         Puzzle("mirror", "Mirror Cube (3x3)", s3.get_WCA_scramble),
         # --- full WCA roster ---
         Puzzle("2x2", "2x2x2", s2.get_WCA_scramble),
